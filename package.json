@@ -1,0 +1,22 @@
+{
+  "name": "professional-portfolio-website",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianawallace/Professional-Portfolio-Website.git"
+  },
+  "author": "Diana Wallace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dianawallace/Professional-Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/dianawallace/Professional-Portfolio-Website#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
