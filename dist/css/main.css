@@ -46,4 +46,8 @@ main {
       padding: 0.4rem; }
       main .icons a:hover {
         color: #163e67;
-        transition: all 1.5s ease-out; }
+        transition: all 1s ease-out; }
+  main#home {
+    overflow: hidden; }
+    main#home h1 {
+      margin-top: 20vh; }
