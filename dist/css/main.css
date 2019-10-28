@@ -6,7 +6,7 @@ body {
   color: white;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
 
 h1,
@@ -36,3 +36,14 @@ header {
 
 .text-secondary {
   color: #163e67; }
+
+main {
+  padding: 5.5rem;
+  height: 100%; }
+  main .icons {
+    margin-top: 1rem; }
+    main .icons a {
+      padding: 0.4rem; }
+      main .icons a:hover {
+        color: #163e67;
+        transition: all 1.5s ease-out; }

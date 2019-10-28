@@ -10,7 +10,7 @@ body {
   color: white;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
@@ -45,4 +45,22 @@ header {
 
 .text-secondary {
   color: $secondary-color;
+}
+
+main {
+  padding: 5.5rem;
+  height: 100%;
+
+  .icons {
+    margin-top: 1rem;
+
+    a {
+      padding: 0.4rem;
+
+      &:hover {
+        color: $secondary-color;
+        transition: all 1.5s ease-out;
+      }
+    }
+  }
 }
