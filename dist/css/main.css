@@ -216,3 +216,15 @@ main {
 
 .job-3 {
   grid-area: job3; }
+
+.job {
+  background: #90a0c3;
+  padding: 0.5rem;
+  border-bottom: #294379 5px solid; }
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #5e76a8;
+  color: #fff;
+  height: 60px; }
