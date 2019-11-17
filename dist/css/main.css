@@ -201,6 +201,10 @@ main {
       border-color: #294379;
       transition: all 1s ease-out; }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;

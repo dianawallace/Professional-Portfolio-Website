@@ -132,6 +132,12 @@ main {
   }
 }
 
+// Contact Page
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 // Button Styles
 .btn {
   display: block;
